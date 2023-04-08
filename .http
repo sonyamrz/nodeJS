@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: 127.0.0.2:5505
+
+###
+
+POST /comments HTTP/1.1
+Host: 127.0.0.2:5505
+Content-Type: application/json
+
+{ "name": "Sonya",
+    "Birthday": "23.09.2003",
+    "Group": "211-325"}
+
+###
+
+GET /stats HTTP/1.1
+Host: 127.0.0.2:5505
+
+###
+
+GET /statss HTTP/1.1
+Host: 127.0.0.2:5505
